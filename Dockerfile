@@ -12,6 +12,6 @@ COPY /--bundles--/app.bundle ./bundles/
 COPY /--bundles--/admin.bundle ./bundles/
 
 RUN npm install
-EXPOSE 3000
+EXPOSE 8000
 
 CMD [ "npm", "start" ]
